@@ -17,3 +17,7 @@ This can be used in Applications that require a user friendly time stamp.
 println("submitted by Jesse Ziegler \(date.ago).") 
 //--> submitted by Jesse Ziegler 5 minutes ago.
 </pre>
+
+
+
+Inspired by NSDate+TimeAgo for Objective C.
