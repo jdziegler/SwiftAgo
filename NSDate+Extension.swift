@@ -26,10 +26,12 @@ extension NSDate {
         let now : NSDate = NSDate()
         
         /* Convert from NSTimeInterval to Int */
-        let interval = self.timeIntervalSinceDate(now)
+        let interval = now.timeIntervalSinceDate( self )
         let nsnumber = NSNumber( double: interval )
         var seconds = Int( nsnumber )
     
+        println( seconds )
+        
         /* switch case */
         switch(seconds){
         case  let x where x < 5:
