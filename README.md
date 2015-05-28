@@ -20,4 +20,4 @@ println("submitted by Jesse Ziegler \(date.ago).")
 
 
 
-Inspired by NSDate+TimeAgo for Objective C.
+Inspired by NSDate-TimeAgo for Objective C.
