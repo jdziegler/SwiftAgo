@@ -5,7 +5,7 @@
 //
 //  http://www.jesseziegler.com
 //
-//  http://github.com/jdziegler
+//  http://github.com/jdziegler/SwiftAgo
 //
 
 import Foundation
